@@ -25,6 +25,8 @@ alias ......='cd ../../../../..'
 alias mime="file --mime-type"
 alias py="python3"
 alias cls="clear"
+alias fixgrub="grub-mkconfig -o /boot/grub/grub.cfg"
+alias grubfix="grub-mkconfig -o /boot/grub/grub.cfg"
 
 eval "$(starship init bash)"
 
